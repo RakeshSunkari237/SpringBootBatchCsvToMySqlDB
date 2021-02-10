@@ -17,7 +17,7 @@ public class MyJobLanucher implements CommandLineRunner{
 	private Job job;
 	
 	
-	@Override
+	
 	public void run(String... args) throws Exception {
 		jobLauncher.run(job,new JobParametersBuilder()
 				.addLong("time",System.currentTimeMillis())
